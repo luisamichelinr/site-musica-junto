@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--cor-fundo);
+    color: var(--cor-branco);
 }
 
 .container {
@@ -36,6 +37,16 @@ body {
     align-items: center;
 }
 
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
 header {
     padding: 20px 0;
 }
@@ -47,4 +58,24 @@ header nav a {
 
 header nav a:hover {
     color: var(--cor-branco)
+}
+
+.botao-branco {
+    background-color: var(--cor-branco);
+    color: var(--cor-fundo);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.botao-branco:hover {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.banner {
+    background: url("../img/sol.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
